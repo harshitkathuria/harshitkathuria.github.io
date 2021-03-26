@@ -5,18 +5,42 @@
   font-family: "Roboto", sans-serif;
 }
 
+.heading-primary {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+  font-family: "Poppins", cursive;
+  letter-spacing: 1px;
+}
+
+.bold {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.line {
+  position: absolute;
+  top: 47px;
+  left: 15%;
+  width: 75%;
+  height: 5px;
+  background-color: #fff;
+}
+
 /* Navbar */
 
 nav#navbar {
+  overflow: hidden;
+  z-index: 100;
   position: fixed;
   height: 100px;
   padding: 20px 70px;
-  transition: padding 0.3s ease-out, height 0.3s ease-out;
-}
-
-nav#navbar.scrolled {
-  padding: 0 70px;
-  height: 64px;
+  background: transparent;
+  transition: padding 0.3s ease-out, height 0.3s ease-out,
+    background 0.3s ease-out;
 }
 
 nav#navbar .brand-logo {
@@ -26,6 +50,13 @@ nav#navbar .brand-logo {
 
 nav#navbar li a {
   position: relative;
+  text-transform: uppercase;
+  /* color: #fff; */
+  color: #d4c9c9;
+  font-family: "Black Ops One", cursive;
+  font-weight: 500;
+  font-size: 1.22rem;
+  /* letter-spacing: 1px; */
 }
 
 nav#navbar li a::before {
@@ -45,6 +76,7 @@ nav#navbar li a::before {
 
 nav#navbar li a:hover {
   background-color: rgba(0, 0, 0, 0);
+  color: #fff;
 }
 
 nav#navbar li a:hover:before {
@@ -52,8 +84,52 @@ nav#navbar li a:hover:before {
   opacity: 1;
 }
 
-nav#navbar li a {
-  font-size: 1.22rem;
+nav#navbar.scrolled {
+  background: white;
+  padding: 0 70px;
+  height: 64px;
 }
 
-/* .................... */
+nav#navbar.scrolled a {
+  color: #3a3c4a;
+}
+
+nav#navbar.scrolled a:hover {
+  color: black;
+}
+
+nav#navbar.scrolled a:hover:before {
+  background: black;
+}
+
+/* Home */
+
+#home {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+
+#tsparticles {
+  height: 100%;
+}
+
+#type-writer {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 4.2rem;
+}
+
+.Typewriter__cursor {
+  color: grey;
+}
+
+#expand-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 47%;
+}
