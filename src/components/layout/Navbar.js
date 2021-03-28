@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="nav-wrapper">
         <div className="row">
           <div className="col s12">
-            <a href="/" className="brand-logo">
+            <a href="#home" className="brand-logo">
               H K
             </a>
             <ul className="right hide-on-med-and-down">
