@@ -57,7 +57,7 @@ nav#navbar li a {
   text-transform: uppercase;
   /* color: #fff; */
   color: #d4c9c9;
-  font-family: "Black Ops One", cursive;
+  /* font-family: "Black Ops One", cursive; */
   font-weight: 500;
   font-size: 1.22rem;
   /* letter-spacing: 1px; */
@@ -98,6 +98,10 @@ nav#navbar.scrolled a {
   color: #3a3c4a;
 }
 
+nav#navbar.scrolled .brand-logo {
+  color: black;
+}
+
 nav#navbar.scrolled a:hover {
   color: black;
 }
@@ -136,4 +140,16 @@ nav#navbar.scrolled a:hover:before {
   position: absolute;
   bottom: 10px;
   left: 47%;
+}
+
+/* About */
+
+#about {
+  background: #1d2026;
+  color: #fff;
+}
+
+#about img {
+  height: 450px !important;
+  width: 80%;
 }
