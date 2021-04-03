@@ -7,7 +7,7 @@ const About = () => {
         <div className="col s12 center">
           <div className="heading-primary">
             About Me
-            <span className="line"></span>
+            {/* <span className="line"></span> */}
           </div>
         </div>
       </div>
@@ -34,6 +34,20 @@ const About = () => {
               worked with many frameworks and always try to increase my apetite
               for learning more new technologies.
             </p>
+          </div>
+          <div className="row" style={{ marginTop: "3rem" }}>
+            <div id="about-contact">
+              <span>Contact Me</span>
+              <button
+                id="contact-btn"
+                className="btn white"
+                onClick={() => {
+                  window.location.href = "/#contact";
+                }}
+              >
+                <i className="black-text material-icons">arrow_right_alt</i>
+              </button>
+            </div>
           </div>
         </div>
       </div>

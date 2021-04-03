@@ -153,3 +153,28 @@ nav#navbar.scrolled a:hover:before {
   height: 450px !important;
   width: 80%;
 }
+
+#about #about-content {
+  padding: 5rem;
+}
+
+#about #about-content p,
+#about #about-content span {
+  font-size: 1.3rem;
+  font-family: "Poppins", cursive !important;
+  display: inline-block;
+}
+
+#about #about-content #about-contact span {
+  font-size: 1.6rem;
+}
+
+#about #about-content #contact-btn {
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+#about #about-content #contact-btn i {
+  font-size: 2.2rem;
+}
