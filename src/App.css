@@ -178,3 +178,36 @@ nav#navbar.scrolled a:hover:before {
 #about #about-content #contact-btn i {
   font-size: 2.2rem;
 }
+
+/* Footer */
+
+.footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.footer .links li {
+  float: left;
+  margin-right: 30px;
+}
+
+.footer .links a {
+  display: block;
+  /* color: #fff; */
+  /* color: rgba(255, 255, 255, 0.3); */
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #000;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.footer .links a:hover {
+  background-color: #000;
+  color: #fff;
+}
