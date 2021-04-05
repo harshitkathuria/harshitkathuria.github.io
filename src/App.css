@@ -179,6 +179,28 @@ nav#navbar.scrolled a:hover:before {
   font-size: 2.2rem;
 }
 
+/* Skills */
+
+.subtitle-container {
+  text-align: center;
+  max-width: 40%;
+  margin: auto;
+}
+
+.subtitle-container .subtitle {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.skills-container {
+  margin: auto;
+  margin-top: 6rem;
+  padding: 0px 7rem;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(4, auto);
+}
+
 /* Footer */
 
 .footer {
