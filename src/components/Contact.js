@@ -43,7 +43,25 @@ const Contact = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col s12 m10 offset-m1">{form()}</div>
+        <div className="col s12 m10 offset-m1">
+          <div id="contact-card" className="card black white-text">
+            <div className="card-content">
+              <div className="row">
+                <div id="contact-aside" className="col s12 m5">
+                  <div className="valign-wrapper">
+                    Drop some words by filling the form
+                  </div>
+                </div>
+                <div
+                  id="contact-form-container"
+                  className="col s12 m6 offset-m1"
+                >
+                  {form()}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
