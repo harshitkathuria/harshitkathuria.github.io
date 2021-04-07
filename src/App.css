@@ -233,7 +233,8 @@ nav#navbar.scrolled a:hover:before {
   padding: 0px 7rem;
   display: grid;
   gap: 5rem;
-  grid-template-columns: repeat(6, minmax(100px, 130px));
+  /* grid-template-columns: repeat(6, minmax(100px, 130px)); */
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .skill {
@@ -246,6 +247,115 @@ nav#navbar.scrolled a:hover:before {
   align-self: center;
   display: block;
   margin: auto;
+}
+
+/* Works */
+
+#works {
+  background: #1d2026;
+  color: #fff;
+}
+
+#works .subtitle {
+  font-weight: 400;
+}
+
+#projects {
+  margin-top: 5rem;
+}
+
+#projects .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+#projects .overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#projects .project:hover .overlay {
+  width: 80%;
+}
+
+#projects .project {
+  margin-bottom: 5rem;
+}
+
+.project .project-image img {
+  border-radius: 5px;
+}
+
+/* Align Left Right Project */
+div#projects .project:nth-child(odd) .project-image {
+  float: left !important;
+}
+
+div#projects .project:nth-child(even) .project-image {
+  float: right !important;
+}
+
+/* div#projects .project:nth-child(even) .project-image img {
+  margin-left: -4rem;
+}
+
+div#projects .project:nth-child(even) .project-about .text {
+  margin-left: 4rem;
+} */
+
+#projects .project-about .heading-about {
+  font-size: 30px;
+  font-family: "Poppins", "Arial", sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.project-about {
+  text-align: left;
+}
+
+.project-about .text {
+  padding-left: 7%;
+  padding-top: 1%;
+}
+
+.project-about .text p {
+  /* color: #8c8c8c; */
+  color: #b9b1b1;
+  font-size: 18px;
+  /* font-weight: 500; */
+}
+
+.project-about .content {
+  margin-bottom: 2rem;
+}
+
+.project-about .card-action a {
+  color: #039be5 !important;
+}
+
+.project-about .card-action a:hover {
+  color: #ffab40 !important;
+}
+
+.source-links {
+  width: 50%;
 }
 
 /* Contact */
