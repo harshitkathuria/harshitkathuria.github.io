@@ -15,41 +15,52 @@ const Skills = () => {
         </div>
       </div>
 
-      {/* <div className="skills-container">
-        <div className="row">
-          <div className="col s12 l2">
-            <div className="skill">
-              <img className="responsive-img" src="/assets/HTML.png" alt="" />
-            </div>
-          </div>
-          <div className="col s12 l2">
-            <div className="skill">
-              <img className="responsive-img" src="/assets/CSS.png" alt="" />
-            </div>
-          </div>
-          <div className="col s12 l2">
-            <div className="skill">
-              <img className="responsive-img" src="/assets/JS.png" alt="" />
-            </div>
-          </div>
-          <div className="col s12 l2">
-            <div className="skill">
-              <img className="responsive-img" src="/assets/React.jpg" alt="" />
-            </div>
-          </div>
-          <div className="col s12 l3">
-            <div className="skill">
-              <img className="responsive-img" src="/assets/Node.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="row center">
+      <div className="row">
         <div className="col s12">
-          <div className="heading-skills">Development</div>
+          <div className="heading-skill-type">Programming Languages</div>
         </div>
-      </div> */}
+      </div>
+      <div className="skills-container">
+        <ScrollAnimation
+          animateIn="fadeInUp"
+          duration={1.5}
+          initiallyVisible={false}
+          animateOnce={true}
+        >
+          <div className="skill center">
+            <img src="/assets/C.png" alt="" className="responsive-img" />
+            <h5>C</h5>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="fadeInUp"
+          duration={1.5}
+          initiallyVisible={false}
+          animateOnce={true}
+        >
+          <div className="skill center">
+            <img src="/assets/C++.png" alt="" className="responsive-img" />
+            <h5>C++</h5>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation
+          animateIn="fadeInUp"
+          duration={1.5}
+          initiallyVisible={false}
+          animateOnce={true}
+        >
+          <div className="skill center">
+            <img src="/assets/java.png" alt="" className="responsive-img" />
+            <h5>Java</h5>
+          </div>
+        </ScrollAnimation>
+      </div>
+
+      <div className="row">
+        <div className="col s12">
+          <div className="heading-skill-type">Development</div>
+        </div>
+      </div>
 
       <div className="skills-container">
         <ScrollAnimation
