@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="footer black white-text">
       <div className="container">
-        <div className="copyright-content left">
+        <div className="copyright-content">
           Copyright &copy; {new Date().getFullYear()}
         </div>
-        <ul className="links right">
+        <ul className="links">
           <li>
             <a
               href="https://www.linkedin.com/in/harshit-kathuria-365217192/"
@@ -45,7 +45,6 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <div className="clearfix"></div>
       </div>
     </footer>
   );

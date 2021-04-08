@@ -4,50 +4,52 @@ const About = () => {
   return (
     <div id="about" className="section">
       <div className="row">
-        <div className="col s12 center">
-          <div className="heading-primary">
+        <div className="col s12 offset-l3">
+          <div className="heading-primary" style={{ paddingLeft: "5rem" }}>
             About Me
             {/* <span className="line"></span> */}
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="col s12 m5 l5">
+        <div className="col s12 l3">
           <img
-            src="https://source.unsplash.com/random"
+            src="/assets/me.jpg"
             alt="Profile"
             className="responsive-img circle"
           />
+          {/* <div className="about-image"></div> */}
         </div>
-        <div id="about-content" className="col s12 m7 l7">
-          <div className="row">
-            <p className="content-text">
-              Hi, I am <span className="bold">Harshit Kathuria,</span> a
-              sophomore at Maharaja Agrasen Institute of Technology(MAIT). I am
-              pursuing Bachelor of Technology in Computer Science Engineering.
-            </p>
-          </div>
-          <div className="row">
-            <p className="content-text">
-              I have a keen interest in programming and Web-Development. I am a
-              MERN stack developer and like creating web applications. I have
-              worked with many frameworks and always try to increase my apetite
-              for learning more new technologies.
-            </p>
-          </div>
-          <div className="row" style={{ marginTop: "3rem" }}>
-            <div id="about-contact">
-              <span>Contact Me</span>
-              <button
-                id="contact-btn"
-                className="btn white"
-                onClick={() => {
-                  window.location.href = "/#contact";
-                }}
-              >
-                <i className="black-text material-icons">arrow_right_alt</i>
-              </button>
-            </div>
+        <div id="about-content" className="col s12 l9">
+          <p className="content-text">
+            Hi, I am <span className="bold">Harshit Kathuria,</span> a sophomore
+            at Maharaja Agrasen Institute of Technology(MAIT). I am pursuing
+            Bachelor of Technology in Computer Science Engineering.
+          </p>
+          <br />
+          <p className="content-text">
+            <br />I have a keen interest in programming and Web-Development. I
+            am a full stack developer with experience in various javascript
+            frameworks like reactjs, electron, nodejs. I like creating web
+            applications. I can create applications that are beautifully
+            designed and functions well.
+          </p>
+          <br />
+          <p className="content-text">
+            <br />I have worked with many frameworks and always try to increase
+            my apetite for learning more new technologies.
+          </p>
+          <div id="about-contact" style={{ marginTop: "30px" }}>
+            <span>Contact Me</span>
+            <button
+              id="contact-btn"
+              className="btn white"
+              onClick={() => {
+                window.location.href = "/#contact";
+              }}
+            >
+              <i className="black-text material-icons">arrow_right_alt</i>
+            </button>
           </div>
         </div>
       </div>

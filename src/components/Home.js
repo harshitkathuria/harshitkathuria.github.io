@@ -9,7 +9,7 @@ const Home = () => {
       <ParticleBackground />
       <button
         onClick={() => {
-          window.location.href = "/#about";
+          document.getElementById("about").scrollIntoView();
         }}
         id="expand-btn"
         className="transparent btn-large btn-floating"

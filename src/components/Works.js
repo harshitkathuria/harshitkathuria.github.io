@@ -18,7 +18,7 @@ const Works = () => {
               className="card horizontal"
               style={{ backgroundColor: "inherit" }}
             >
-              <div className="card-image left valign-wrapper">
+              <div className="card-image project-image left valign-wrapper">
                 <img
                   src="/assets/projects/foodtime.jpg"
                   alt=""
@@ -62,9 +62,10 @@ const Works = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Source Code
+                            Code
                           </a>
                         </p>
+                        <div className="clearfix"></div>
                       </div>
                     </div>
                   </div>
@@ -79,7 +80,7 @@ const Works = () => {
               className="card horizontal"
               style={{ backgroundColor: "inherit" }}
             >
-              <div className="card-image left valign-wrapper">
+              <div className="card-image project-image left valign-wrapper">
                 <img
                   src="/assets/projects/interndigger.jpg"
                   alt=""
@@ -119,9 +120,10 @@ const Works = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          Source Code
+                          Code
                         </a>
                       </p>
+                      <div className="clearfix"></div>
                     </div>
                   </div>
                 </div>
@@ -135,7 +137,7 @@ const Works = () => {
               className="card horizontal"
               style={{ backgroundColor: "inherit" }}
             >
-              <div className="card-image left valign-wrapper">
+              <div className="card-image project-image left valign-wrapper">
                 <img
                   src="/assets/projects/chatout.png"
                   alt=""
@@ -184,9 +186,10 @@ const Works = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Source Code
+                            Code
                           </a>
                         </p>
+                        <div className="clearfix"></div>
                       </div>
                     </div>
                   </div>
@@ -201,7 +204,7 @@ const Works = () => {
               className="card horizontal"
               style={{ backgroundColor: "inherit" }}
             >
-              <div className="card-image left valign-wrapper">
+              <div className="card-image project-image left valign-wrapper">
                 <img
                   src="/assets/projects/dynamoplayer.png"
                   alt=""
@@ -237,9 +240,10 @@ const Works = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            Source Code
+                            Code
                           </a>
                         </p>
+                        <div className="clearfix"></div>
                       </div>
                     </div>
                   </div>
