@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
+import SideNav from "./components/layout/SideNav";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <SideNav />
       <Home />
       <About />
       <Skills />

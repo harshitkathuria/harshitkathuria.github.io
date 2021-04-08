@@ -47,14 +47,14 @@ const Contact = () => {
           <div id="contact-card" className="card black white-text">
             <div className="card-content">
               <div className="row">
-                <div id="contact-aside" className="col s12 m5">
+                <div id="contact-aside" className="col s12 l5">
                   <div className="valign-wrapper">
                     Drop some words by filling the form
                   </div>
                 </div>
                 <div
                   id="contact-form-container"
-                  className="col s12 m6 offset-m1"
+                  className="col s12 l6 offset-l1"
                 >
                   {form()}
                 </div>

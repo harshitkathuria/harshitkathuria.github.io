@@ -9,7 +9,7 @@ const TypeWriter = () => {
           options={{
             strings: [
               "Web Developer",
-              "MERN Stack Developer",
+              "Full Stack Developer",
               "Problem Solver"
             ],
             cursor: "|",
