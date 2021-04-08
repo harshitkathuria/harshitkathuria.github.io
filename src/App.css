@@ -8,6 +8,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .heading-primary {
@@ -177,8 +178,9 @@ nav#navbar.scrolled a:hover:before {
 } */
 
 #about img {
-  height: 450px !important;
-  width: 80%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 #about #about-content {
@@ -432,10 +434,4 @@ textarea {
   color: #fff; */
   background-color: #fff;
   color: #000;
-}
-
-#about img {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
 }
