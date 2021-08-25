@@ -380,6 +380,16 @@ div#projects .project:nth-child(even) .project-about .text {
   text-align: center;
   text-transform: uppercase;
   height: 100% !important;
+  padding-top: 5rem;
+}
+
+#contact-card #contact-aside .small {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  width: 90%;
+  margin: auto;
+  margin-top: 1.5rem;
 }
 
 #contact-form-container .input-field {

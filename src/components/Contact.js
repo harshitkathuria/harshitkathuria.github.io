@@ -1,16 +1,31 @@
 import React from "react";
+import { useForm } from "@formspree/react";
+import { action } from "../config";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm(action);
+  if (state.succeeded) {
+    document.querySelector("form input#name").value = "";
+    document.querySelector("form input#email").value = "";
+    document.querySelector("form #message").value = "";
+    document.querySelector("form button").innerHTML =
+      "<i class='material-icons left'>check</i>Sent";
+    setTimeout(() => {
+      document.querySelector("form button").innerHTML =
+        "<i class='material-icons left'>send</i>Send";
+    }, 2000);
+  }
+
   const form = () => {
     return (
       <>
-        <form className="form">
+        <form className="form" onSubmit={handleSubmit}>
           <div className="input-field">
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
             <label htmlFor="name">Name</label>
           </div>
           <div className="input-field">
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
             <label htmlFor="email">Email</label>
           </div>
           <div className="input-field">
@@ -18,11 +33,12 @@ const Contact = () => {
               name="message"
               className="materialize-textarea"
               id="message"
+              required
             ></textarea>
             <label htmlFor="message">Message</label>
           </div>
           <button
-            type="button"
+            type="submit"
             className="btn-large white black-text waves-effect waves-light"
           >
             <i className="material-icons left">send</i>Send
@@ -48,8 +64,12 @@ const Contact = () => {
             <div className="card-content">
               <div className="row">
                 <div id="contact-aside" className="col s12 l5">
-                  <div className="valign-wrapper">
-                    Drop some words by filling the form
+                  <div>
+                    Have something to say?
+                    <br />
+                    <div className="small">
+                      Drops some words by filling the form
+                    </div>
                   </div>
                 </div>
                 <div
