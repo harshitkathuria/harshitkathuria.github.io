@@ -184,7 +184,8 @@ nav#navbar.scrolled a:hover:before {
 }
 
 #about #about-content {
-  padding: 2rem 5rem 5rem;
+  padding: 0 2rem 0 0;
+  /* text-align: justify; */
 }
 
 #about #about-content p,

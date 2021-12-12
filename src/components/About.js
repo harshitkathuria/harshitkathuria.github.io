@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div id="about" className="section">
       <div className="row">
-        <div className="col s12 offset-l3">
-          <div className="heading-primary" style={{ paddingLeft: "5rem" }}>
+        <div className="col s12 offset-l4" style={{ padding: 0 }}>
+          <div className="heading-primary">
             About Me
             {/* <span className="line"></span> */}
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="col s12 l3">
+        <div className="col s12 l4">
           <img
             src="/assets/me.jpg"
             alt="Profile"
@@ -20,7 +20,7 @@ const About = () => {
           />
           {/* <div className="about-image"></div> */}
         </div>
-        <div id="about-content" className="col s12 l9">
+        <div id="about-content" className="col s12 l8">
           <p className="content-text">
             Hi, I am <span className="bold">Harshit Kathuria,</span> a sophomore
             at Maharaja Agrasen Institute of Technology(MAIT). I am pursuing

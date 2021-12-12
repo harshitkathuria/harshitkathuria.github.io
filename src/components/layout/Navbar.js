@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav id="navbar">
       <div className="nav-wrapper">
         <a href="#!" data-target="slide-out" className="sidenav-trigger">
-          <i class="material-icons">menu</i>
+          <i className="material-icons">menu</i>
         </a>
         <a href="#home" className="brand-logo">
           H K
